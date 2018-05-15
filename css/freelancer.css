@@ -167,16 +167,19 @@ section h2 {
 
 header{
   height: 750px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position:  center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;  
+  background: url('../img/landing.jpg');  
 }
 
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
-  background: url('../img/landing.jpg')
 }
 
 header.masthead h1 {
