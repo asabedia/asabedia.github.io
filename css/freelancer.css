@@ -165,21 +165,11 @@ section h2 {
   }
 }
 
-header{
-  height: 750px;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position:  center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;  
-  background: url('../img/landing.jpg');  
-}
-
 header.masthead {
   padding-top: calc(6rem + 72px);
   padding-bottom: 6rem;
+  height: 750px;
+  background: url('../img/landing.jpg');  
 }
 
 header.masthead h1 {
@@ -196,7 +186,14 @@ header.masthead h2 {
 @media (min-width: 992px) {
   header.masthead {
     padding-top: calc(6rem + 106px);
-    padding-bottom: 6rem;    
+    padding-bottom: 6rem;   
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position:  center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;   
   }
   header.masthead h1 {
     font-size: 4.75em;
